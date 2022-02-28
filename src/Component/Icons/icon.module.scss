@@ -1,0 +1,37 @@
+.icon__notifications {
+  position: relative;
+  cursor: pointer;
+  .counter__notifications {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    animation: counter 1.5s infinite;
+    span {
+      font-size: 10px;
+      font-weight: bold;
+      color: aliceblue;
+    }
+  }
+}
+.icon__language {
+  cursor: pointer;
+}
+
+@keyframes counter {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}

@@ -1,5 +1,6 @@
+import Icon from "../Icons";
 import s from "./toolbar.module.scss";
-import NotificationsIcon from "@mui/icons-material/Notifications";
+
 const Toolbar = () => {
   return (
     <div className={s.toolbar__wrapper}>
@@ -7,11 +8,14 @@ const Toolbar = () => {
         <span className={s.logo}>Admin-Panel</span>
       </div>
       <div className={s.toolbar__right}>
-        <div className={s.icon__block}>
-          <NotificationsIcon sx={{ fontSize: 35, color: "#ffff" }} />
-          <div className={s.counter__notifications}>
-            <span>2</span>
-          </div>
+        <Icon type="Notification" />
+        <Icon type="Language" />
+        <Icon type="Settings" />
+        <div className={s.toolbar__avatar}>
+          <img
+            src="https://www.pngfind.com/pngs/m/406-4068951_simplyyyyyy-avatar-maker-hd-png-download.png"
+            alt="its steal"
+          />
         </div>
       </div>
     </div>
