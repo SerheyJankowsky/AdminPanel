@@ -1,6 +1,7 @@
 import s from "./sidebar.module.scss";
 import { NavLink } from "react-router-dom";
 import { pathLink } from "./pathLink.js";
+
 const Sidebar = () => {
   return (
     <ul className={s.link__wraper}>
