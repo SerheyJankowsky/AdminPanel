@@ -1,5 +1,11 @@
 import s from "./icon.module.scss";
-import { Language, Notifications, Settings } from "@mui/icons-material";
+import {
+  Language,
+  Notifications,
+  Settings,
+  ArrowUpward,
+  ArrowDownward,
+} from "@mui/icons-material";
 const Icon = ({ type }) => {
   switch (type) {
     case "Notification":
@@ -23,8 +29,20 @@ const Icon = ({ type }) => {
           <Settings sx={{ fontSize: 35, color: "#ffff" }} />
         </div>
       );
+    case "ArrowUp":
+      return (
+        <div className={s.icon__language}>
+          <ArrowUpward sx={{ fontSize: 35, color: "#96dbae" }} />
+        </div>
+      );
+    case "ArrowDown":
+      return (
+        <div className={s.icon__language}>
+          <ArrowDownward sx={{ fontSize: 35, color: "#fc7174" }} />
+        </div>
+      );
     default:
-      return;
+      return "NotFound";
   }
 };
 

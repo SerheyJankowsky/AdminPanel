@@ -1,0 +1,14 @@
+.info__wrapper {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 11px -1px #000000;
+  padding: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  flex: 1;
+  color: #fff;
+  .info__proffit {
+    display: flex;
+    align-items: center;
+  }
+}

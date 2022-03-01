@@ -16,7 +16,9 @@ body {
 .container {
   width: 100%;
   display: flex;
+  gap: 10px;
 }
 .main__content {
-  flex: 10;
+  flex: 5;
+  padding-right: 10px;
 }

@@ -7,7 +7,7 @@ const Sidebar = () => {
     <ul className={s.link__wraper}>
       <h2>Dashboard</h2>
       {pathLink.map(({ to, name, icons }) => (
-        <li>
+        <li key={to}>
           {" "}
           <NavLink
             to={to}
