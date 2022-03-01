@@ -32,13 +32,13 @@ const Icon = ({ type }) => {
     case "ArrowUp":
       return (
         <div className={s.icon__language}>
-          <ArrowUpward sx={{ fontSize: 35, color: "#96dbae" }} />
+          <ArrowUpward sx={{ fontSize: 15, color: "#96dbae" }} />
         </div>
       );
     case "ArrowDown":
       return (
         <div className={s.icon__language}>
-          <ArrowDownward sx={{ fontSize: 35, color: "#fc7174" }} />
+          <ArrowDownward sx={{ fontSize: 15, color: "#fc7174" }} />
         </div>
       );
     default:

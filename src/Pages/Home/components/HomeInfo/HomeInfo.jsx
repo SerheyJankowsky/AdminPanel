@@ -6,7 +6,9 @@ const HomeInfo = ({ type, total, proffit = true }) => {
       <h3>{type}</h3>
       <div className={s.info__proffit}>
         <p>$ {total.toLocaleString()}</p>
-        {proffit ? <Icon type="ArrowUp" /> : <Icon type="ArrowDown" />}
+        <span>
+          -1.1{proffit ? <Icon type="ArrowUp" /> : <Icon type="ArrowDown" />}
+        </span>
       </div>
       <p>Compared to last month</p>
     </div>
