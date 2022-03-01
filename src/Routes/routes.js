@@ -4,7 +4,8 @@ import Home from "../Pages/Home";
 import Sales from "../Pages/Sales";
 
 export const routes = [
-  { path: "home", component: <Home /> },
-  { path: "sales", component: <Sales /> },
-  { path: "analytics", component: <Analytics /> },
+  { path: "/", component: <Navigate to={"home"} /> },
+  { path: "/home", component: <Home /> },
+  { path: "/sales", component: <Sales /> },
+  { path: "/analytics", component: <Analytics /> },
 ];
