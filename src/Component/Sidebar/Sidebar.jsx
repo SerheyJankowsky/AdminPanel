@@ -5,7 +5,7 @@ import { pathLink } from "./pathLink.js";
 const Sidebar = () => {
   return (
     <ul className={s.link__wraper}>
-      <h2>Dashboard</h2>
+      <h4>Dashboard</h4>
       {pathLink.map(({ to, name, icons }) => (
         <li key={to}>
           {" "}

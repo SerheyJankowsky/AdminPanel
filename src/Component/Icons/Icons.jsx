@@ -1,4 +1,5 @@
 import s from "./icon.module.scss";
+import PropTypes from "prop-types";
 import {
   Language,
   Notifications,
@@ -44,6 +45,10 @@ const Icon = ({ type }) => {
     default:
       return "NotFound";
   }
+};
+
+Icon.propTypes = {
+  type: PropTypes.string.isRequired,
 };
 
 export default Icon;

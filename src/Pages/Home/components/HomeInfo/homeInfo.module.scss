@@ -12,11 +12,16 @@
   &:hover {
     transform: scale(1.02);
   }
+  p {
+    font-size: 20px;
+    color: #c2d5ee;
+  }
   .info__proffit {
     display: flex;
     align-items: center;
     p {
       font-size: 35px;
+      color: #fff;
       font-weight: bold;
     }
     span {
