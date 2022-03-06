@@ -18,7 +18,7 @@ const Chart = ({ data, title, grid, dataKey }) => {
       <ResponsiveContainer width="100%" aspect={4 / 1}>
         <LineChart data={data}>
           <XAxis dataKey="name" stroke="#c2d5ee" />
-          <Line type="monotone" dataKey="Active User" stroke="#c2d5ee" />
+          <Line type="monotone" dataKey={dataKey} stroke="#c2d5ee" />
           <Tooltip />
           {grid && <CartesianGrid stroke="#c2d5ee" strokeDasharray={"5 5"} />}
         </LineChart>
