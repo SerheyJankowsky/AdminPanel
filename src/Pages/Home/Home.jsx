@@ -15,6 +15,7 @@ const Home = () => {
 
   useEffect(() => {
     dispatch(HomeOperations.getHomeData());
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
