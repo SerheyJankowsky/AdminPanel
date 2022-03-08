@@ -28,7 +28,7 @@ const Chart = ({ data, title, grid, dataKey }) => {
 };
 
 Chart.propTypes = {
-  data: PropTypes.object.isRequired,
+  data: PropTypes.array.isRequired,
   title: PropTypes.string.isRequired,
   grid: PropTypes.bool,
   dataKey: PropTypes.string.isRequired,
