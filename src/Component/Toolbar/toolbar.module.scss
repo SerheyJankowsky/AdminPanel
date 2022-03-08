@@ -5,8 +5,9 @@
   justify-content: space-between;
   padding: 25px;
   position: sticky;
-
+  background: #537fa8;
   top: 0;
+  z-index: 10000;
   .logo {
     font-size: 25px;
     cursor: pointer;

@@ -9,7 +9,12 @@ const user = createReducer([], {
   [HomeActions.getUsersData]: (_, { payload }) => payload,
 });
 
+const transaction = createReducer([], {
+  [HomeActions.setSelectedTransactions]: (_, { payload }) => payload,
+});
+
 export default combineReducers({
   home,
   user,
+  transaction,
 });
