@@ -1,4 +1,4 @@
-export const data = [
+const homeData = [
   {
     name: "Jan",
     "Active User": 4000,
@@ -48,3 +48,41 @@ export const data = [
     "Active User": 2340,
   },
 ];
+
+const userData = [
+  {
+    id: 1,
+    firstName: "Anna",
+    secondName: "Lu",
+    position: "Software Enginer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5Ei5MpqMeBdzn6kCVjz2xJM8VtEaVw2FOqw&usqp=CAU",
+  },
+  {
+    id: 2,
+    firstName: "Yan",
+    secondName: "Perro",
+    position: "JavaScript Developer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQEZrATmgHOi5ls0YCCQBTkocia_atSw0X-Q&usqp=CAU",
+  },
+  {
+    id: 3,
+    firstName: "Andrey",
+    secondName: "Seul",
+    position: "Back-end Developer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJzEaxLN-jGRYYUO65pWu7Q9GXoNt4LUSSA&usqp=CAU",
+  },
+  {
+    id: 4,
+    firstName: "Tonya",
+    secondName: "Kisanova",
+    position: "QA Enginer",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROa-v3M7qp_Po1Bw2zSgueCCbIPCKlrptQrA&usqp=CAU",
+  },
+];
+
+const data = {
+  userData,
+  homeData,
+};
+
+export default data;
